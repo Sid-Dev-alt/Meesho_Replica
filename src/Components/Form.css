@@ -1,0 +1,28 @@
+.d-flex {
+    margin-top: 10%;
+    position: relative;
+}
+
+.d-flex .form {
+    padding-right: 34rem;
+    margin-bottom: 25%;
+    margin-left: 20%;
+}
+
+/* .form-floating label {
+    font-size: 1rem;
+} */
+
+.form-floating input {
+    width: 250%;
+    padding: 100px 90px;
+    height: 30px;
+}
+
+.form-floating .form-control {
+    width: 375%;
+}
+
+.navbar .navbar navbar-expand-lg bg-light {
+    background-color: rgb(255 255 255) !important;
+}
