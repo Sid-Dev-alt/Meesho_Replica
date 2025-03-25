@@ -80,7 +80,11 @@ const Form = () => {
                     marginBottom: "19%",
                     marginLeft: "20%"
                 }} onSubmit={sendEmail}>
-                    <div className="form-floating mb-3" style={{ width: '123px' }}>
+                    <div className="form-floating mb-3" style={{ 
+                        width: '123px',
+                        marginTop: "-109px"
+
+                     }}>
                         <input
                             type="email"
                             className="form-control smallInp"
@@ -210,7 +214,7 @@ const Form = () => {
                         style={{
                             position: 'absolute',
                             left: '20%',
-                            top: '116%',
+                            top: '118%',
                             width: '62%',
                             padding: '1%',
                             backgroundColor: "#30228A",
